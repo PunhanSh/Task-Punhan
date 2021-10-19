@@ -1,0 +1,82 @@
+.container .row .icon-sebet {
+  padding-bottom: 20px;
+}
+
+.container .row .open {
+  visibility: hidden;
+  width: 265px;
+  -webkit-box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.05);
+}
+
+.container .row .open.active {
+  visibility: visible;
+}
+
+.container .row .open .heading {
+  padding: 10px;
+  border-bottom: 2px solid #cccccc;
+  border-top: 2px solid #20c997;
+  border-left: none;
+  border-right: none;
+}
+
+.container .row .open .heading span {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container .row .open .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .row .open .card .card-left img {
+  padding: 10px;
+}
+
+.container .row .open .card .card-right {
+  position: relative;
+  padding-top: 12px;
+}
+
+.container .row .open .card .card-right a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.container .row .open .card .card-right span {
+  margin-top: 5px;
+  display: block;
+  color: #919191;
+  font-size: 14px;
+}
+
+.container .row .open .card .card-right .count {
+  position: absolute;
+  right: 8px;
+  top: 25px;
+}
+
+.container .row .open .footer {
+  padding-bottom: 10px;
+}
+
+.container .row .open .footer span {
+  color: #20c997;
+  font-size: 22px;
+  margin-right: 50px;
+  padding-left: 7px;
+}
+
+.container .row .open .footer button {
+  background-color: #20c997;
+  padding: 8px 15px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-bottom: 2px solid #1aa179;
+}
+/*# sourceMappingURL=style.css.map */

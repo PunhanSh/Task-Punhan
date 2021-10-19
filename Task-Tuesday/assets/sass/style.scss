@@ -1,0 +1,71 @@
+.container {
+    .row {
+        .icon-sebet {
+            padding-bottom: 20px;
+        }
+        .open {
+            visibility: hidden;
+            width: 265px;
+            box-shadow: 0 20px 50px 10px rgba(0, 0, 0, 0.05);
+            &.active {
+                visibility: visible;
+            }
+            .heading {
+                padding: 10px;
+                border-bottom: 2px solid #cccccc;
+                border-top: 2px solid #20c997;
+                border-left: none;
+                border-right: none;
+                span {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+            }
+            .card {
+                display: flex;
+                .card-left {
+                    img {
+                        padding: 10px;
+                    }
+                }
+                .card-right {
+                    position: relative;
+                    padding-top: 12px;
+                    a {
+                        text-decoration: none;
+                        color: #333;
+                        font-weight: bold;
+                    }
+                    span {
+                        margin-top: 5px;
+                        display: block;
+                        color: #919191;
+                        font-size: 14px;
+                    }
+                    .count {
+                        position: absolute;
+                        right: 8px;
+                        top: 25px;
+                    }
+                }
+            }
+            .footer {
+                padding-bottom: 10px;
+                span {
+                    color: #20c997;
+                    font-size: 22px;
+                    margin-right: 50px;
+                    padding-left: 7px;
+                }
+                button {
+                    background-color: #20c997;
+                    padding: 8px 15px;
+                    font-weight: bold;
+                    color: white;
+                    border: none;
+                    border-bottom: 2px solid #1aa179;
+                }
+            }
+        }
+    }
+}
